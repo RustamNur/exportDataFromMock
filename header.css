@@ -1,0 +1,64 @@
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  width: 1920px;
+  height: 310px;
+ background-color: #F4F6FA;
+ background-image: url("../img/world.svg");
+ background-size: contain;
+}
+
+.header_main_text {
+  margin: 0;
+  color: #1f3347;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding-bottom: 15px;
+  padding-top: 90px;
+}
+
+.header_text {
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 700px;
+}
+
+.header_plane {
+  position: absolute;
+  width: 115.036px;
+  height: 127.744px;
+  transform: rotate(-7.887deg);
+  flex-shrink: 0;
+  top: 155px;
+  left: 113px;
+}
+.header_plane1 {
+  position: absolute;
+  width: 115.036px;
+  height: 127.744px;
+  transform: rotate(37.887deg);
+  flex-shrink: 0;
+  top: 155px;
+  right: 113px;
+}
+
+.header_route {
+    position: absolute;
+    width: 160px;
+    height: 130px;
+    top: 230px;
+    left:  10px;
+}
+.header_route1 {
+    position: absolute;
+    width: 160px;
+    height: 130px;
+    top: 195px;
+    right:  175px;
+}
